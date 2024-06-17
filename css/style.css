@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+.tema{
+    background-color: #FF5F5F;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+}
+
+#promocao{
+    width: 100vw;
+}
+
+#slideshow{
+    position: relative;
+    margin: auto;
+}
+
+#setaEsquerda, #setaDireita{
+    cursor: pointer;
+    position: absolute;
+    top: 27%;
+    width: 40px;
+    padding: 32px;
+}
+
+#setaEsquerda{
+    left: 0;
+}
+
+#setaDireita{
+    right: 0;
+    rotate: 180deg;
+}
