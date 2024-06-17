@@ -1,7 +1,19 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
     margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #111111;
 }
 
 .tema{
@@ -41,4 +53,64 @@ body{
 #setaDireita{
     right: 0;
     rotate: 180deg;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 6vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    padding-bottom: 6vh;
+    column-gap: 5vw;
+    row-gap: 6vh;
+}
+
+.produto{
+    text-decoration: none;
+}
+
+.grid-item{
+    border-radius: 7px;
+    border: 2px solid #BFBFBF;
+    padding: 20px;
+}
+
+.imgProduto{
+    width: 8vw;
+    margin-left: 1vh;
+    margin-right: 4vh;
+    float: left;
+}
+
+.nomeProd{
+    font-size: 22px;
+}
+
+.plataforma{
+    padding-top: 1vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-bottom: 1vh;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.red{
+    background-color: #E80018;
+    color: white;
+}
+
+.divPreco{
+    position: relative;
+    bottom: 0px;
+}
+
+.moeda{
+    font-size: 14px;
+}
+
+.preco{
+    font-size: 28px;
+    font-weight: 500;
 }
