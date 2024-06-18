@@ -18,8 +18,6 @@ a{
 
 .tema{
     background-color: #FF5F5F;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
 }
 
 .logo{
@@ -30,6 +28,8 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 #promocao{
@@ -123,20 +123,26 @@ a{
     font-weight: 500;
 }
 
+footer{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
 .elementoCentro{
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    display: flex;
+    margin: auto;
+    width: 50%;
 }
 
 #borda{
-    border-right: 1px solid white;
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 40px;
+    border-right: 2px solid white;
+    border-radius: 2px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    height: 30px;
 }
 
-.esquerda{
-    float: left;
+#copyright{
+    color: white;
+    font-weight: 300;
 }
