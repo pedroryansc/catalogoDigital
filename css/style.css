@@ -3,12 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 body{
+    position: relative;
+    min-height: 100vh;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "slnt" 0;
     margin: 0px;
+}
+
+#pagina-container{
+    padding-bottom: 12vh;
 }
 
 a{
@@ -33,7 +39,7 @@ a{
 }
 
 #promocao{
-    width: 100vw;
+    width: 100%;
 }
 
 #slideshow{
@@ -44,9 +50,9 @@ a{
 #setaEsquerda, #setaDireita{
     cursor: pointer;
     position: absolute;
-    top: 27%;
+    margin-top: 9vw;
     width: 40px;
-    padding: 32px;
+    padding-left: 3vw;
 }
 
 #setaEsquerda{
@@ -61,9 +67,8 @@ a{
 #grid-container{
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
     padding-top: 6vh;
-    padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 6vh;
     column-gap: 5vw;
     row-gap: 6vh;
@@ -73,7 +78,7 @@ a{
     border-radius: 7px;
     border: 2px solid #BFBFBF;
     padding: 1vw;
-    width: 35vw;
+    width: 32vw;
 }
 
 .imgProduto{
@@ -123,26 +128,96 @@ a{
     font-weight: 500;
 }
 
-footer{
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+#footer-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
-.elementoCentro{
-    display: flex;
-    margin: auto;
-    width: 50%;
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    column-gap: 1.5vw;
+    justify-content: center;
+}
+
+.centroX{
+    margin-top: 1.5vh;
 }
 
 #borda{
-    border-right: 2px solid white;
-    border-radius: 2px;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    height: 30px;
+    border-left: 2px solid white;
+    height: 7vh;
 }
 
 #copyright{
     color: white;
     font-weight: 300;
+}
+
+
+
+#grid-produto{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 6vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    padding-bottom: 6vh;
+    column-gap: 3vw;
+    justify-content: start;
+}
+
+#grid-voltar{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#imgVoltar{
+    width: 60px;
+}
+
+#txtVoltar{
+    margin-top: 2.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 2.5vh;
+    font-weight: 700;
+}
+
+#imgDetalhes{
+    height: 30vw;
+    margin-left: 5vw;
+}
+
+#divNome{
+    margin-bottom: 2.5vh;
+}
+
+#nomeProd{
+    font-size: 28px;
+}
+
+#plataforma{
+    font-size: 17px;
+}
+
+#divPreco{
+    margin-top: 7vh;
+    margin-bottom: 6vh;
+}
+
+#moeda{
+    font-size: 18px;
+}
+
+#preco{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+#titleDetalhes{
+    font-size: 20px;
 }
