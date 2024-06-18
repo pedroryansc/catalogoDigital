@@ -10,7 +10,7 @@
 <body>
     <header class="tema">
         <a href="index.html">
-            <img src="img/anson.png" class="logo">
+            <img src="img/anson.png" class="logo imgCentro">
         </a>
     </header>
     <section id="slideshow">
@@ -21,28 +21,42 @@
     <div id="grid-container">
         <div class="grid-item">
             <a href="detalhesProduto.html">
-                <img src="img/zeldatotk.jpg" class="imgProduto">
+                <img src="img/zeldatotk.jpg" class="imgProduto"/>
             </a>
-            <a href="detalhesProduto.html">
-                <span class="nomeProd">The Legend of Zelda: Tears of the Kingdom</span>
-            </a>
-            <br><br>
+            <div class="divNome">
+                <a href="detalhesProduto.html">
+                    <span class="nomeProd">The Legend of Zelda: Tears of the Kingdom</span>
+                </a>
+            </div>
             <a href="detalhesProduto.html">
                 <span class="plataforma red">Switch</span>
             </a>
-            <br><br>
-            <div class="divPreco">
-                <a href="detalhesProduto.html">
+            <a href="detalhesProduto.html">
+                <div class="divPreco">
                     <sup class="moeda">R$</sup> <span class="preco">309,89</span>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
         <div class="grid-item">
-            3
+            <img src="img/eldenring.jpg" class="imgProduto"/>
+            <div class="divNome">
+                <span class="nomeProd">Elden Ring</span>
+            </div>
+            <span class="plataforma green">Xbox Series X / Xbox One</span>
+            <div class="divPreco">
+                <sup class="moeda">R$</sup> <span class="preco">366,87</span>
+            </div>
         </div>
     </div>
-    <footer>
-        
+    <footer class="tema">
+        <div class="elementoCentro">
+            <div class="esquerda">
+                <img src="img/anson.png" class="logo">
+            </div>
+            <div class="esquerda">
+                <div id="borda" class="esquerda"></div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
