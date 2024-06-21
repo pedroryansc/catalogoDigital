@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body{
+    position: relative;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin: 0px;
+}
+
+#pagina-container{
+    padding-bottom: 12vh;
+}
+
+a{
+    text-decoration: none;
+    color: #111111;
+}
+
+.tema{
+    background-color: #FF5F5F;
+}
+
+.logo{
+    width: 20vw;
+}
+
+.imgCentro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#promocao{
+    width: 100%;
+}
+
+#slideshow{
+    position: relative;
+    margin: auto;
+}
+
+#setaEsquerda, #setaDireita{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 9vw;
+    width: 40px;
+    padding-left: 3vw;
+}
+
+#setaEsquerda{
+    left: 0;
+}
+
+#setaDireita{
+    right: 0;
+    rotate: 180deg;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    column-gap: 5vw;
+    row-gap: 6vh;
+}
+
+.grid-item{
+    border-radius: 7px;
+    border: 2px solid #BFBFBF;
+    padding: 1vw;
+    width: 32vw;
+}
+
+.grid-produto{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    column-gap: 2vw;
+}
+
+.imgProduto{
+    height: 13vw;
+    margin-left: 1vh;
+    float: left;
+}
+
+.divNome{
+    margin-bottom: 2vh;
+}
+
+.nomeProd{
+    font-size: 22px;
+}
+
+.plataforma{
+    padding-top: 1vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-bottom: 1vh;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.red{
+    background-color: #E80018;
+    color: white;
+}
+
+.green{
+    background-color: #0F7B0E;
+    color: white;
+}
+
+.divPreco{
+    margin-top: 4vh;
+}
+
+.moeda{
+    font-size: 14px;
+}
+
+.preco{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#footer-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    column-gap: 1.5vw;
+    justify-content: center;
+}
+
+.centroX{
+    margin-top: 1.5vh;
+}
+
+#borda{
+    border-left: 2px solid white;
+    height: 7vh;
+}
+
+#copyright{
+    color: white;
+    font-weight: 300;
+}
+
+
+
+#grid-produto{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 6vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    padding-bottom: 6vh;
+    column-gap: 3vw;
+    justify-content: start;
+}
+
+#grid-voltar{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#imgVoltar{
+    width: 60px;
+}
+
+#txtVoltar{
+    margin-top: 2.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 2.5vh;
+    font-weight: 700;
+}
+
+#imgDetalhes{
+    height: 30vw;
+    margin-left: 5vw;
+}
+
+#divNome{
+    margin-bottom: 2.5vh;
+}
+
+#nomeProd{
+    font-size: 28px;
+}
+
+#plataforma{
+    font-size: 17px;
+}
+
+#divPreco{
+    margin-top: 7vh;
+    margin-bottom: 6vh;
+}
+
+#moeda{
+    font-size: 18px;
+}
+
+#preco{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+#titleDetalhes{
+    font-size: 20px;
+}
