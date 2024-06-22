@@ -63,3 +63,178 @@ a{
     right: 0;
     rotate: 180deg;
 }
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    row-gap: 4vh;
+}
+
+.grid-item{
+    border-radius: 7px;
+    border: 2px solid #BFBFBF;
+    padding: 2.5vw;
+    width: 60vw;
+}
+
+.grid-produto{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 1vh;
+}
+
+.imgProduto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35vh;
+}
+
+.txtCentro{
+    text-align: center;
+}
+
+.divNome{
+    margin-bottom: 2vh;
+}
+
+.nomeProd{
+    font-size: 18px;
+}
+
+.plataforma{
+    padding-top: 1vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 1vh;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.red{
+    background-color: #E80018;
+    color: white;
+}
+
+.green{
+    background-color: #0F7B0E;
+    color: white;
+}
+
+.divPreco{
+    margin-top: 4vh;
+}
+
+.moeda{
+    font-size: 14px;
+}
+
+.preco{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#footer-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    column-gap: 4vw;
+    justify-content: center;
+}
+
+.centroX{
+    margin-top: 1.5vh;
+}
+
+#borda{
+    border-left: 2px solid white;
+    height: 7vh;
+}
+
+#copyright{
+    color: white;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
+
+#grid-produto{
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 3vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    padding-bottom: 3vh;
+    row-gap: 1vh;
+    justify-content: center;
+}
+
+#grid-voltar{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 27%;
+}
+
+#imgVoltar{
+    width: 42px;
+}
+
+#txtVoltar{
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    font-weight: 700;
+}
+
+#imgDetalhes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vw;
+}
+
+#divNome{
+    text-align: center;
+}
+
+#nomeProd{
+    font-size: 24px;
+}
+
+#grid-plat-preco{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 14vw;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+}
+
+#plataforma{
+    font-size: 16px;
+}
+
+#moeda{
+    font-size: 16px;
+}
+
+#preco{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#titleDetalhes{
+    font-size: 17px;
+}

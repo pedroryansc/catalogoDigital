@@ -25,7 +25,7 @@
                             <img src="img/zeldatotk.jpg" class="imgProduto"/>
                         </a>
                     </div>
-                    <div>
+                    <div class="txtCentro">
                         <div class="divNome">
                             <a href="detalhesProduto.php">
                                 <span class="nomeProd">The Legend of Zelda: Tears of the Kingdom</span>
@@ -47,7 +47,7 @@
                     <div>
                         <img src="img/eldenring.jpg" class="imgProduto"/>
                     </div>
-                    <div>
+                    <div class="txtCentro">
                         <div class="divNome">
                             <span class="nomeProd">Elden Ring</span>
                         </div>

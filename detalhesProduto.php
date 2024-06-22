@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Legend of Zelda: Tears of the Kingdom - ANSON</title>
     <link rel="shortcut icon" href="fav/favicon.ico">
-    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/celular.css">
 </head>
 <body>
     <div id="pagina-container">
@@ -28,9 +28,11 @@
                 <div id="divNome">
                     <span id="nomeProd">The Legend of Zelda: Tears of the Kingdom</span>
                 </div>
-                <span class="plataforma red" id="plataforma">Switch</span>
-                <div id="divPreco">
-                    <sup id="moeda">R$</sup> <span id="preco">309,89</span>
+                <div id="grid-plat-preco">
+                    <span class="plataforma red" id="plataforma">Switch</span>
+                    <div id="divPreco">
+                        <sup id="moeda">R$</sup> <span id="preco">309,89</span>
+                    </div>
                 </div>
                 <p>
                     <span id="titleDetalhes">Detalhes do produto</span>
