@@ -58,7 +58,7 @@ a{
 #setaEsquerda, #setaDireita{
     cursor: pointer;
     position: absolute;
-    margin-top: 13vw;
+    margin-top: 13%;
     top: 0;
     width: 30px;
     padding-left: 3vw;
