@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Legend of Zelda: Tears of the Kingdom - ANSON</title>
     <link rel="shortcut icon" href="fav/favicon.ico">
-    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/pc.css">
 </head>
 <body>
     <div id="pagina-container">

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo digital - ANSON</title>
     <link rel="shortcut icon" href="fav/favicon.ico">
-    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/pc.css">
 </head>
 <body>
     <div id="pagina-container">
@@ -67,7 +67,7 @@
                         <div class="divNome">
                             <span class="nomeProd">God of War: Ragnarök</span>
                         </div>
-                        <span class="plataforma branco">PS5</span>
+                        <span class="plataforma white">PS5</span>
                         <div class="divPreco">
                             <sup class="moeda">R$</sup> <span class="preco">244,89</span>
                         </div>
