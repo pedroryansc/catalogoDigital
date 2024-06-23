@@ -12,11 +12,30 @@
         <?php
             include "trechos/header.html";
         ?>
-        <section id="slideshow">
-            <img src="img/promocao.png" id="promocao">
-            <img src="img/seta.png" id="setaEsquerda">
-            <img src="img/seta.png" id="setaDireita">
-        </section>
+        <div id="slideshow">
+            <div class="slide fade">
+                <img src="img/promocao.png" class="banner">
+            </div>
+            <div class="slide fade">
+                <img src="img/prevenda.png" class="banner">
+            </div>
+            <div class="slide fade">
+                <img src="img/jadisponivel.png" class="banner">
+            </div>
+            <a id="ant" onclick="plusSlides(-1)">
+                <img src="img/seta.png" id="setaEsquerda">
+            </a>
+            <a id="prox" onclick="plusSlides(1)">
+                <img src="img/seta.png" id="setaDireita">
+            </a>
+            <div id="centro">
+                <div id="pontos">
+                    <span class="ponto" onclick="slideAtual(1)"></span>
+                    <span class="ponto" onclick="slideAtual(2)"></span>
+                    <span class="ponto" onclick="slideAtual(3)"></span>
+                </div>
+            </div>
+        </div>
         <div id="grid-container">
             <div class="grid-item">
                 <div class="grid-produto">
@@ -81,3 +100,4 @@
     </div>
 </body>
 </html>
+<script src="js/script.js"></script>
