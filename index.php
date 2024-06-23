@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo digital - ANSON</title>
     <link rel="shortcut icon" href="fav/favicon.ico">
-    <link rel="stylesheet" href="css/celular.css">
+    <link rel="stylesheet" href="css/tablet.css">
 </head>
 <body>
     <div id="pagina-container">
@@ -54,6 +54,22 @@
                         <span class="plataforma green">Xbox Series X / Xbox One</span>
                         <div class="divPreco">
                             <sup class="moeda">R$</sup> <span class="preco">366,87</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-produto">
+                    <div>
+                        <img src="img/gowragnarok.jpg" class="imgProduto"/>
+                    </div>
+                    <div class="txtCentro">
+                        <div class="divNome">
+                            <span class="nomeProd">God of War: Ragnarök</span>
+                        </div>
+                        <span class="plataforma branco">PS5</span>
+                        <div class="divPreco">
+                            <sup class="moeda">R$</sup> <span class="preco">244,89</span>
                         </div>
                     </div>
                 </div>

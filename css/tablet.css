@@ -27,7 +27,7 @@ a{
 }
 
 .logo{
-    width: 10vw;
+    width: 20vw;
 }
 
 .imgCentro{
@@ -38,20 +38,29 @@ a{
     padding-bottom: 3vh;
 }
 
-#promocao{
-    width: 100%;
-}
-
 #slideshow{
     position: relative;
     margin: auto;
+    width: 100%;
+    height: 0;
+    padding-top: calc(100% * (100 / 300));
+}
+
+#promocao{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 42%;
 }
 
 #setaEsquerda, #setaDireita{
     cursor: pointer;
     position: absolute;
-    margin-top: 9vw;
-    width: 40px;
+    margin-top: 13.5vw;
+    top: 0;
+    width: 50px;
     padding-left: 3vw;
 }
 
@@ -68,9 +77,9 @@ a{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    padding-top: 6vh;
-    padding-bottom: 6vh;
-    column-gap: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    column-gap: 6vw;
     row-gap: 6vh;
 }
 
@@ -78,20 +87,25 @@ a{
     border-radius: 7px;
     border: 2px solid #BFBFBF;
     padding: 1vw;
-    width: 32vw;
+    width: 35vw;
 }
 
 .grid-produto{
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: start;
-    column-gap: 2vw;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 1vh;
 }
 
 .imgProduto{
-    height: 13vw;
-    margin-left: 1vh;
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+}
+
+.txtCentro{
+    text-align: center;
 }
 
 .divNome{
@@ -99,16 +113,17 @@ a{
 }
 
 .nomeProd{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .plataforma{
     padding-top: 1vh;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     padding-bottom: 1vh;
     border-radius: 10px;
     font-weight: 600;
+    font-size: 14px;
 }
 
 .red{
@@ -149,12 +164,12 @@ footer{
     grid-template-columns: auto auto auto;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    column-gap: 1.5vw;
+    column-gap: 3vw;
     justify-content: center;
 }
 
 .centroX{
-    margin-top: 1.5vh;
+    margin-top: 1.75vh;
 }
 
 #borda{
@@ -173,11 +188,11 @@ footer{
     display: grid;
     grid-template-columns: auto auto auto;
     padding-top: 6vh;
-    padding-left: 6vh;
-    padding-right: 6vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
     padding-bottom: 6vh;
-    column-gap: 3vw;
-    justify-content: start;
+    column-gap: 4vw;
+    justify-content: center;
 }
 
 #grid-voltar{
@@ -186,20 +201,19 @@ footer{
 }
 
 #imgVoltar{
-    width: 60px;
+    width: 45px;
 }
 
 #txtVoltar{
-    margin-top: 2.5vh;
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-    margin-bottom: 2.5vh;
+    margin-top: 1.25vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1.25vh;
     font-weight: 700;
 }
 
 #imgDetalhes{
-    height: 30vw;
-    margin-left: 5vw;
+    height: 50vw;
 }
 
 #divNome{
@@ -207,27 +221,27 @@ footer{
 }
 
 #nomeProd{
-    font-size: 28px;
+    font-size: 24px;
 }
 
 #plataforma{
-    font-size: 17px;
+    font-size: 16px;
 }
 
 #divPreco{
-    margin-top: 7vh;
-    margin-bottom: 6vh;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
 }
 
 #moeda{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #preco{
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 #titleDetalhes{
-    font-size: 20px;
+    font-size: 18px;
 }
