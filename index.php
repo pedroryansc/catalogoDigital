@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo digital - ANSON</title>
     <link rel="shortcut icon" href="fav/favicon.ico">
-    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" media="only screen and (orientation: landscape)" href="css/pc.css">
+    <link rel="stylesheet" media="only screen and (orientation: portrait)" href="css/celular.css">
+    <link rel="stylesheet" media="only screen and (orientation: portrait) and (min-width: 580.5px)" href="css/tablet.css">
+    <link rel="stylesheet" media="only screen and (orientation: landscape) and (min-width: 1920.5px)" href="css/tv.css">
 </head>
 <body>
     <div id="pagina-container">
